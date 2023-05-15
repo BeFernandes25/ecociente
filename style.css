@@ -1,0 +1,222 @@
+/* Estilos gerais */
+body, html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  
+  background-color: #061a0e;
+  color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+nav {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #f9f9f9;
+}
+
+/* Estilos do banner */
+.banner {
+  background-image: url(foto1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #f9f9f9;
+  background-position: center;
+  text-align: center;
+  padding: 250px 20px;
+}
+
+.banner h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.banner button:hover{
+  color: #4e6157;
+}
+
+/* Estilos da seção Sobre */
+.about {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f9f9f9;
+  background-color: #142c1e;
+}
+
+.about h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about div{
+  width: 100%;
+
+}
+.about div p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  text-align: justify;
+  width: 60%;
+
+}
+
+.about img {
+  width: 100%;
+  max-width: 400px;
+ 
+
+}
+.conteudo{
+  display: flex;
+  justify-content: space-around;
+}
+/* Estilos da seção Artigos */
+.articles {
+  padding: 50px 20px;
+  background-color:#779283;
+  
+}
+
+.articles h2 {
+  color:#0d2919;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.articles ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.articles li {
+  margin: 40px;
+  background-color:#5c7768;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+  
+}
+
+.articles img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.articles h3 {
+  font-size: 24px;
+  margin: 10px;
+  color: #f9f9f9;
+}
+
+.articles li:hover {
+  transform: scale(1.008);
+}
+
+.articles p {
+  font-size: 16px;
+  margin: 10px;
+  text-align: justify;
+  color: #b6b6b6;
+}
+
+/* Estilos da seção Contato */
+.contact {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#1a3827;
+  color: #fff;
+}
+.contact form{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+.contact h2{
+  font-size: 40px;
+}
+
+.contact input{
+  height: 50px;
+  width: 500px;
+  margin: 20px;
+  padding-left: 20px;
+  background-color: #bbd4c6;
+  border-style: solid;
+  border-color: #061a0e;
+  border-radius: 50px;
+  color: #0d2919;
+}
+.contact button{
+  height: 50px;
+  width: 520px;
+  margin: 20px;
+  background-color:#061a0e;
+  border-style: solid;
+  border-color: #061a0e;
+  border-radius: 50px;
+  color: #bbd4c6;
+}
+footer p{
+  margin: 0;
+}
+footer{
+  height: 50px;
+  background-color:#061a0e;
+  margin: 0;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
